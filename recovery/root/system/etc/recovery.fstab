@@ -62,8 +62,8 @@ odm						/odm		ext4	ro,barrier=1,discard		wait,avb,logical,first_stage_mount
 /dev/block/bootdevice/by-name/dtbo		/dtbo		emmc	default			recoveryonly
 
 # Samsung ODE
-/dev/block/bootdevice/by-name/keydata		/keydata       ext4	defaults			recoveryonly
-/dev/block/bootdevice/by-name/keyrefuge	/keyrefuge     ext4	defaults			recoveryonly
+/dev/block/bootdevice/by-name/keydata		/keydata	ext4	defaults			recoveryonly
+/dev/block/bootdevice/by-name/keyrefuge	/keyrefuge	ext4	defaults			recoveryonly
 
 /dev/block/bootdevice/by-name/prism		/prism		ext4	default			recoveryonly
 /dev/block/bootdevice/by-name/optics		/optics	ext4	default			recoveryonly
