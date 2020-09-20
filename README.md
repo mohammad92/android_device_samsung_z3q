@@ -10,4 +10,4 @@ make recoveryimage
 ```
 
 Kernel source:
-https://github.com/jesec/android_kernel_samsung_sm8250
+https://github.com/mohammad92/android_kernel_samsung_sm8250
