@@ -55,7 +55,7 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno650
 QCOM_BOARD_PLATFORMS += kona
 
 # Kernel
-TARGET_PREBUILT_KERNEL := device/samsung/z3q/prebuilt/Image
+TARGET_PREBUILT_KERNEL := device/samsung/z3q/prebuilt/Image.gz
 TARGET_PREBUILT_DTB := device/samsung/z3q/prebuilt/dtb
 BOARD_PREBUILT_DTBOIMAGE := device/samsung/z3q/prebuilt/recoverydtbo
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
@@ -82,7 +82,6 @@ BOARD_CUSTOM_BOOTIMG_MK := device/samsung/z3q/bootimg.mk
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
-TARGET_USERIMAGES_USE_EXT4 := true
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144
@@ -118,7 +117,7 @@ VENDOR_SECURITY_PATCH := 2025-12-31
 BOARD_USES_METADATA_PARTITION := true
 
 # TWRP specific build flags
-TW_DEVICE_VERSION := 3_afaneh92
+TW_DEVICE_VERSION := 4_afaneh92
 TW_THEME := portrait_hdpi
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_QCOM_RTC_FIX := true
