@@ -137,3 +137,6 @@ TW_USE_TOOLBOX := true
 TARGET_USES_MKE2FS := true
 TW_NO_LEGACY_PROPS := true
 TW_NO_BIND_SYSTEM := true
+TW_SUPPORT_INPUT_1_2_HAPTICS := true
+TARGET_RECOVERY_DEVICE_MODULES += android.hardware.vibrator@1.0 android.hardware.vibrator@1.1 android.hardware.vibrator@1.2 android.hardware.vibrator@1.3
+TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator@1.0.so $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator@1.1.so $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator@1.2.so $(TARGET_OUT_SHARED_LIBRARIES)/android.hardware.vibrator@1.3.so
